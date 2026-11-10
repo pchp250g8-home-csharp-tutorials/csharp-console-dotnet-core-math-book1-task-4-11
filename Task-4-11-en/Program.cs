@@ -4,8 +4,8 @@ float i2 = 91.8F; /*Percentage of participants who successfully completed the di
                    *The 2nd part of the interval*/
 float r1 = i1 / 100; /*The 1st rational fraction*/
 float r2 = i2 / 100; /*The 2nd rational fraction*/
-bool found = false;
-uint n = 0;
+bool found = false; // Flag wich sgnals that solution is found
+uint n = 0; // Number of participants of the race
 Console.WriteLine("Between 91.7% and 91.8% of participants successfully completed the race.");
 Console.WriteLine("What is the minimum number of participants?");
 while (!found)
